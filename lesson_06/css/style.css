@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	margin: 0;	
+	top: 0;
+}
+
+.mainBox {	
+	background-color: black;
+	height: 100px;
+	width: 100%;	
+	top: 0;	
+	position: fixed;
+	display: inline-block;
+}
+
+.topMenu
+{
+	/*background-color: blue;*/
+	position: relative;
+	width: 350px;/*60%;*/
+	height: 30%;
+	margin-left: 50%;
+	top:70%;
+	display: inline-block;
+
+	float: right;
+}
+
+.menuElement {	
+	/*background-color: green;*/
+	display: inline-block;	
+}
+
+
+.mainBox a {
+	color: white;
+	padding: 0px 5px;
+	display: inline-block;
+	font-size: 10pt;
+
+}
+
+p {
+	margin: 110px 20px 10px 20px;
+	text-align: justify;
+}
