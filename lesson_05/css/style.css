@@ -1,0 +1,31 @@
+body{
+	background: #FFBBFF;
+	color: #9A0034;
+}
+
+h1, h2, h3, h4{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.BooksName{
+	border: 3px double #9A0034;
+	padding: 20px;
+}
+
+.head2{	
+	font-weight: 600;
+}
+
+.head3{
+	font-style: italic;
+}
+.uText
+{
+	text-decoration: underline;
+}
+
+.sText
+{
+	text-decoration: line-through;
+}
