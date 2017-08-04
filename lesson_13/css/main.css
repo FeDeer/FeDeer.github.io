@@ -1,0 +1,81 @@
+.section {
+  width: 570px;
+  height: 570px;
+  background-image: url(/img/bg.png);
+  background-color: #ebf4f4;
+}
+.header {
+  background-color: #01b3b3;
+  height: 25px;
+  width: 150px;
+  padding-top: 5px;
+  position: fixed;
+  margin-top: 95px;
+  margin-left: 155px;
+  z-index: 99999;
+}
+p {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.form {
+  background-color: #fff;
+  height: 370px;
+  width: 320px;
+  border: 1px solid #cfdede;
+  margin-top: 99px;
+  margin-left: 125px;
+  position: fixed;
+}
+.blockEmail {
+  margin-top: 52px;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+span {
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+}
+.star {
+  color: #01b3b3;
+}
+.labelEdit {
+  margin-left: 29px;
+  margin-bottom: 30px;
+  width: 260px;
+}
+.blockPassword {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+.inputEmail {
+  margin-top: 3px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 500;
+  background-image: url(/img/bg.png);
+}
+.inputPass {
+  margin-top: 4px;
+  background-image: url(/img/bg.png);
+}
+.btnSubmit {
+  height: 45px;
+  width: 260px;
+  border: 1px solid #06bfbf;
+  margin-left: 30px;
+  margin-top: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#01b2b2), to(#0aa2a2));
+  background: linear-gradient(180deg, #01b2b2, #0aa2a2);
+  font-family: Arial;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+}
