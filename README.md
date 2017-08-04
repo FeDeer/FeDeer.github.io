@@ -17,3 +17,5 @@
 
 [Урок 11](https://fedeer.github.io/lesson_11/) - Урок № 11. Сниппеты
 
+[Урок 13](https://fedeer.github.io/lesson_13/) - Урок № 13. Адаптивная верстка (PixelPerfect). 
+
