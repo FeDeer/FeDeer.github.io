@@ -1,0 +1,59 @@
+// Colors
+@btn-color: #fcb303;
+@icons-color: #46b814;
+@text: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5; // для фона серого цвета
+@light: #fff; // для фона белого цвета 
+
+// Basic settings
+
+html {
+	font-size: 10px;
+}
+.button {
+	background-color:@btn-color;
+	color:@light; //де-факто, цвет шрифта
+	padding: 1rem 3rem; 
+	border-radius: 8px;
+	text-transform: uppercase;
+	border: none;
+}
+
+// Typography - стили заголовков 
+section {
+	padding: 10rem 0;
+}
+
+// main
+main {
+	padding: 3rem; 
+}
+
+.header {	
+	height: 7rem;
+}
+
+	// автоматическое выравнивание по центру для кнопки
+.wrap {
+	display: table; //обертку wrap обозначаем как таблицу
+	width: 100%; //по ширине 100% от родителя col-md-3
+	height: 7rem;
+	 &-block {
+	 	display: table-cell;
+	 	vertical-align: middle;
+	}
+}
+
+.phone-link {	
+	color: @text; 
+	font-weight: 900;
+	font-size: 17px;
+	//--------------------------------------------
+	// Для выравнивания по ширине:
+	height: 7rem;
+	line-height: 7rem; //выравнивается если line-height = height
+	display: inline-block;
+	//--------------------------------------------
+}
+ 
