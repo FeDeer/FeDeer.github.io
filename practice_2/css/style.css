@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=cyrillic,cyrillic-ext');
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: url('../fonts/Proxima_Nova/ProximaNova-Bold.eot');
+  src: url('../fonts/Proxima_Nova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Proxima_Nova/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/Proxima_Nova/ProximaNova-Bold.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/Proxima_Nova/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_SemiBold';
+  src: url('../fonts/Proxima_Nova/ProximaNova-Semibold.eot');
+  src: url('../fonts/Proxima_Nova/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/Proxima_Nova/ProximaNova-Semibold.woff2') format('woff2'), url('../fonts/Proxima_Nova/ProximaNova-Semibold.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Semibold.ttf') format('truetype'), url('../fonts/Proxima_Nova/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_It';
+  src: url('../fonts/Proxima_Nova/ProximaNova-RegularIt.eot');
+  src: url('../fonts/Proxima_Nova/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'), url('../fonts/Proxima_Nova/ProximaNova-RegularIt.woff2') format('woff2'), url('../fonts/Proxima_Nova/ProximaNova-RegularIt.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-RegularIt.ttf') format('truetype'), url('../fonts/Proxima_Nova/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'ProximaNova_Reg';
+  src: url('../fonts/Proxima_Nova/ProximaNova-Regular.eot');
+  src: url('../fonts/Proxima_Nova/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Proxima_Nova/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/Proxima_Nova/ProximaNova-Regular.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/Proxima_Nova/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_Lt';
+  src: url('../fonts/Proxima_Nova/ProximaNova-Light.eot');
+  src: url('../fonts/Proxima_Nova/ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Proxima_Nova/ProximaNova-Light.woff2') format('woff2'), url('../fonts/Proxima_Nova/ProximaNova-Light.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Light.ttf') format('truetype'), url('../fonts/Proxima_Nova/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_Reg', sans-serif;
+  background: #ffffff url(../img/main-bg.jpg) center 0 no-repeat;
+}
+.button {
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  background-color: #fcb303;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+}
+section {
+  padding: 10rem 0;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 1.7rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+.main {
+  padding: 3rem 0 5rem;
+  background-size: cover;
+}
+.main-content {
+  margin-top: 14rem;
+}
+.main-content h1 {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
+.main-subtitle {
+  margin-bottom: 5rem;
+  font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #46b814;
+  font-family: 'ProximaNova_Bold', sans-serif;
+}
+.main span strong {
+  font-size: 3rem;
+}
+.main-trigger {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  display: block;
+  margin-top: 4rem;
+}
+.main-form {
+  background-color: #ffffff;
+  padding: 4rem 5rem;
+  border: 1px solid;
+  text-align: center;
+}
+.main-form-header {
+  margin-bottom: 4rem;
+  font-size: 1.8rem;
+}
+.main-form-header strong {
+  font-size: 2rem;
+}
+.main-form-input {
+  display: block;
+  margin: 2rem 0;
+  border: 1px solid #dddddd;
+  width: 100%;
+  padding: 1.7rem;
+}
+.main-form label {
+  padding: 0.5rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.main-form-btn {
+  display: block;
+  width: 100%;
+  height: 5.5rem;
+  font-size: 1.6rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+}
