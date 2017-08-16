@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="author" content="Fedor Kharlamov">
+    <meta name="owner" content="Fedor Kharlamov">
+    <title>Адаптивная верстка</title>
+
+    <!-- Bootstrap and styles -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9] -->
+
+    <!-- <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script> 
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> -->
+    
+    <!-- [endif]-->
+
+  </head>
+  <body>
+
+    <div class="container">
+         <!-- data-toggle - bootstrap аттрибут, с которым элемент если имеет значение modal то он открывает модальное окно  -->
+        <!-- <a href="#my-modal" class="link" data-toggle="modal">Ссылка</a> -->
+        <button class="btn btn-success" data-toggle="modal" data-target="#my-modal"> Удалить</button> 
+    </div>    
+
+    <!-- Модальное окно Bootstrap -->
+    <!-- fade - режим анимации появения  -->
+    <div class="modal fade mcRadiusPar" id="my-modal">
+    <!-- Само белое окно  -->
+      <div class="modal-dialog modal-sm mcRadiusPar">
+      <!-- содержимое окна -->
+        <div class="modal-content mcRadiusPar">
+          <div class="modal-header headerBrown mcRadius">
+            <button type="button" class="close closeWhite disabled" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Вопрос</h4>
+          </div>
+          <div class="modal-body">
+            <p>Вы действительно хотите удалить файл? </p>
+          </div>
+          <!-- подвал модального окна -->
+          <div class="modal-footer">
+            <div class="mfLeftSide">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Да</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Нет</button>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>      
+  </body>
+</html>
